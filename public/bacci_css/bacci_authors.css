@@ -1,0 +1,62 @@
+/*
+CS405_Group 03
+"The Workplace of Today" (Static Website)
+
+Members:
+Aguilar, Edward John    ->  Assistant Developer
+Batu, Laurence Angelo   ->  Project Leader
+							Main Developer
+
+Chiangco, Crista Mae    ->  Website and Pages Layout Handler
+							Main Designer
+Casi, Maria Kyla        ->  Content Gatherer (News, Informations and Blogs)
+							Assistant Designer
+Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
+							Assistant Designer
+*/
+
+.author_content {
+	border-style: inset;
+	position: absolute;
+	right: 2vw;
+	top: 8vw;
+	/* height: 30vw; */
+	height: 55vw;
+	width: 20vw;
+	padding: 1vw 2vw 1vw 2vw;
+	overflow-y: scroll;
+    background-color: rgba(240, 248, 255, 0.562);
+}
+
+.wd{
+	text-align: center;
+	width: inherit;
+}
+
+.line{
+	width: 18vw;
+	text-align: center;
+	border: solid;
+	color: maroon;
+}
+
+.author_picture{
+	margin: 0vw 4vw 0vw 4vw;
+	text-align: center;
+}
+
+.author_img {
+	width: 12vw;
+	height: 12vw;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.author_font{
+	font-family: courier;
+	font-size: 16px;
+}
+
+.author_fontt{
+	text-align: center;
+}

@@ -1,0 +1,93 @@
+/* 
+    CS405_Group 03
+    "The Workplace of Today" (Static Website)
+
+    Members:
+    Aguilar, Edward John    ->  Assistant Developer
+    Batu, Laurence Angelo   ->  Project Leader
+                                Main Developer
+       
+    Chiangco, Crista Mae    ->  Website and Pages Layout Handler
+                                Main Designer                         
+    Casi, Maria Kyla        ->  Content Gatherer (News, Informations and Blogs)
+                                Assistant Designer
+    Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
+                                Assistant Designer
+*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+li.link:hover, td.readmorebtn:hover {
+	background-color : crimson;
+	transition: ease 1s;
+}
+
+a.menu:hover, li.link:hover, td.readmorebtn:hover, a.readmore:hover {
+	color: black;
+}
+
+a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
+	color : white;
+}
+
+/* Blog, News, and Article Page */
+.blog_title {background-image: url("/icons/blog.jpg");}
+
+.news_title {background-image: url("/icons/news.jpg");}
+
+.articles_title {background-image: url("/icons/articles.jpg");}
+
+.blog_title, .news_title, .articles_title {
+    position: absolute;
+    height: 6vw;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news_title, .articles_title{
+    margin: 10vw 10vw 10vw 3vw;
+    padding: 2vw 5vw 2vw 5vw;
+    float: left;
+    width: 58vw;
+}
+
+.main_news_content, .main_articles_content {
+    margin: 15vw 10vw 10vw 3vw;
+    float: left;
+    width: 58vw;
+}
+
+.blog_title {
+    margin: 10vw 10vw 10vw 10vw;
+    padding: 2vw 5vw 2vw 5vw;
+    width: 70vw;
+}
+
+.main_blog_content {
+    width: 70vw;
+    margin: 15vw 10vw 10vw 10vw;
+}
+
+.blog_title {height: 4vw;}
+
+#blog {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.main_blog_content, .main_news_content, .main_articles_content {
+    position: absolute;
+    padding: 5vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+	height: wrap;
+	font-size: 12;
+}
+
+.img1 {
+    width: inherit;
+    height: inherit;
+}

@@ -1,0 +1,73 @@
+/* 
+    CS405_Group 03
+    "The Workplace of Today" (Static Website)
+
+    Members:
+    Aguilar, Edward John    ->  Assistant Developer
+    Batu, Laurence Angelo   ->  Project Leader
+                                Main Developer
+       
+    Chiangco, Crista Mae    ->  Website and Pages Layout Handler
+                                Main Designer                         
+    Casi, Maria Kyla        ->  Content Gatherer (News, Informations and Blogs)
+                                Assistant Designer
+    Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
+                                Assistant Designer
+*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* 
+#blogpage {
+    margin-bottom: 100vw;
+    padding-bottom: 50vw;
+    position: absolute;
+}
+
+.main_blog_content {
+    margin-bottom: 100vw;
+    padding-bottom: 50vw;
+    position: absolute;
+}
+ */
+ 
+#blog_profpic_left {
+    float: left;
+    clear: right;
+}
+
+#blog_profpic_right {
+    float: right;
+    clear: left;
+}
+
+#blog_profpic_right, #blog_profpic_left {
+    width: 8vw;
+    height: 8vw;
+    object-fit: contain;
+    margin: 0vw 1vw 0vw 1vw;
+    border-radius: 100%;
+}
+
+#blog_art_right {
+    float: right; 
+    text-align: right; 
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+#blog_art_left {
+    float: left; 
+    text-align: left; 
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+#blog_art_right, #blog_art_left {
+    border: 2px solid black;
+    width: 50vw;
+    height: wrap;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
+}
