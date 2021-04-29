@@ -42,8 +42,8 @@ In this page, you can see all list of pages where we use to gather some resource
 
 ## Authors
 
-* **Laurence Angelo T. Batu*	- *Main Developer; Assistant Web Designer; Debugger; Document Compiler*
-* **Crista Mae E. Chiangco*		- *Main Web Designer; Assistant Developer*
-* **Edward John M. Aguilar*		- *Assistant Developer; Assistant Web Designer*
-* **Chara Mae P. Inodeo*		- *Assistant Web Designer; News and Information Content (Documentation)*
-* **Maria Kyla C. Casi*			- *Assistant Web Designer; News and Information Content (Documentation)* 
+* *Laurence Angelo T. Batu*	- *Main Developer; Assistant Web Designer; Debugger; Document Compiler*
+* *Crista Mae E. Chiangco*		- *Main Web Designer; Assistant Developer*
+* *Edward John M. Aguilar*		- *Assistant Developer; Assistant Web Designer*
+* *Chara Mae P. Inodeo*		- *Assistant Web Designer; News and Information Content (Documentation)*
+* *Maria Kyla C. Casi*			- *Assistant Web Designer; News and Information Content (Documentation)* 
