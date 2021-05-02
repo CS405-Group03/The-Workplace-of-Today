@@ -1,5 +1,4 @@
 ## THE WORKPLACE OF TODAY
-## This is workplace!
 
 == Description ==
 
