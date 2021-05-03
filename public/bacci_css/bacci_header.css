@@ -1,4 +1,4 @@
-/* 
+/*
     CS405_Group 03
     "The Workplace of Today" (Static Website)
 
@@ -6,9 +6,9 @@
     Aguilar, Edward John    ->  Assistant Developer
     Batu, Laurence Angelo   ->  Project Leader
                                 Main Developer
-       
+
     Chiangco, Crista Mae    ->  Website and Pages Layout Handler
-                                Main Designer                         
+                                Main Designer
     Casi, Maria Kyla        ->  Content Gatherer (News, Informations and Blogs)
                                 Assistant Designer
     Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
@@ -88,10 +88,10 @@ img.dropbtn, h1.webtitle  {
 	margin-left : 0.5%;
 	/* margin-left : 2.5%; */
 	margin-top : -0.01em;
-	display : inline-block;	
+	display : inline-block;
 }
 
-img.dropbtn {
+img.dropbtn, img.loginbtn {
     border: none;
     outline: none;
     color: white;
@@ -102,6 +102,11 @@ img.dropbtn {
 	width: 3vw;
 	height: 3vw;
 	object-fit: contain;
+}
+
+#loginbtn {
+    position: relative;
+    right: 0;
 }
 
 .webtitle_a, .webtitle_a:active {
@@ -126,4 +131,22 @@ li.link {
 	background-color : maroon;
 	list-style : none;
 	padding : 0.5em 0em 0.5em 0em;
+}
+
+/* log In Content ----------------------------------*/
+div.login {
+    height: inherit;
+    width: 20vw;
+    display: block;
+    background-color: pink;
+    position: relative;
+    right: 0;
+}
+
+li.log {
+    list-style: none;
+}
+
+a.logg{
+    color: black;
 }
