@@ -1,6 +1,7 @@
 ## THE WORKPLACE OF TODAY
 
 ## Sample01
+Sample Post 02
 
 == Description ==
 
