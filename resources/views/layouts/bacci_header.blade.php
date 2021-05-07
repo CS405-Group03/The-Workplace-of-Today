@@ -29,8 +29,7 @@
     <body>
         <div class="header_content">
             <div class="navbar">
-                <h1 class="webtitle"><a href = "/" class="webtitle_a"> The Workplace of Today </a></h1>
-
+               
                 <div class="dropdown">
                     <img class="dropbtn" src = "/icons/ico_menu.png">
                     <div class="dropdown-content">
@@ -41,14 +40,9 @@
                         <li class="link"><a class="menu" href="/aboutus">About Us</a></li>
                     </div>
                 </div>
-
-                <div class="login">
-                    <div id=#loginbtn><img class="loginbtn" src = "/icons/ico_menu.png"></div>
-                    <div class="login-content">
-                        <li class="log"><a class="logg" href="/">Sign In</a></li>
-                        <li class="log"><a class="logg" href="/">Sign Up</a></li>
-                    </div>
-                </div>
+                      
+                <h1 class="webtitle"><a href = "/" class="webtitle_a"> The Workplace of Today </a></h1>
+             
             </div>
         </div>
     </body>

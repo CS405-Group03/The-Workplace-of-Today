@@ -35,3 +35,7 @@
 @section('web_bg')
     @include('layouts/bacci_web_bg')
 @endsection
+
+@section('signuppp')
+    @include('layouts/bacci_signup')
+@endsection
