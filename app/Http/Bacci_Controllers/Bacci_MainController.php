@@ -29,7 +29,7 @@ class Bacci_MainController
         return view('index');
     }
 
-    public function articles()
+    public function articlescontrol()
     {
         return view('bacci_articles');
     }
