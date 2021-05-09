@@ -30,7 +30,7 @@
         @yield('web_bg')
 
         <div class = "frontpage_content">
-            <table>
+            <table class="tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -48,7 +48,7 @@
                 </tr>
             </table>
 
-            <table>
+            <table class="tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -66,7 +66,7 @@
                 </tr>
             </table>
 
-            <table>
+            <table class="tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -84,7 +84,7 @@
                 </tr>
             </table>
 
-            <table>
+            <table class="tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -102,6 +102,7 @@
                 </tr>
             </table>
         </div>
+        
         @yield('header_body')
         @yield('footer_body')
     </body>

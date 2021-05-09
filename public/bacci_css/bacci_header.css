@@ -43,7 +43,7 @@ body {
 	overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropbtn{
 	font-size: 30px;
 	border: none;
 	outline: none;
@@ -68,10 +68,6 @@ body {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-
-/*  */
-
-
 
 div.header_content {
 	background-color : maroon;
@@ -104,9 +100,9 @@ img.dropbtn, img.loginbtn {
 	object-fit: contain;
 }
 
-#loginbtn {
-    position: relative;
-    right: 0;
+div.login {
+	float: right;
+	right: 0;
 }
 
 .webtitle_a, .webtitle_a:active {
@@ -138,9 +134,12 @@ div.login {
     height: inherit;
     width: 20vw;
     display: block;
-    background-color: pink;
     position: relative;
     right: 0;
+}
+
+div.login-content {
+	background-color: pink;
 }
 
 li.log {
