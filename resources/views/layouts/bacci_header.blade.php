@@ -28,6 +28,8 @@
 
     <body>
         <div class="header_content">
+            @extends('layouts/bacci_account')
+            
             <div class="navbar">
                
                 <div class="dropdown">

@@ -104,7 +104,6 @@
         </div>
         
         @yield('header_body')
-        @yield('signuppp')
         @yield('footer_body')
     </body>
 </html>
