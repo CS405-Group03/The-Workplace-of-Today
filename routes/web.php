@@ -31,12 +31,10 @@ use App\Http\Bacci_Controllers\Bacci_MainController;
 |
 */
 
-// Route::get('/', [Bacci_MainController::class, 'all']);
 Route::get('/', [Bacci_MainController::class, 'indexcontrol']);
 
+Route::get('/articles', [Bacci_MainController::class, 'articlescontrol']);
 // Route::get('/articles/{slug}', [Bacci_MainController::class, 'articlescontrol']);
-
-Route::get('/articles', [Bacci_MainController::class, 'articles']);
 
 Route::get('/news', [Bacci_MainController::class, 'newscontrol']);
 
@@ -52,9 +50,9 @@ Route::get('/signup', function(){
 
 
 
+// Route::get('/', [Bacci_MainController::class, 'all']);
 
-
-/* 
+/*
 Route::get('/', funtion()[
 
     return view('posts', [
@@ -64,4 +62,4 @@ Route::get('/', funtion()[
 ]);
 */
 
-Route::get('/posts/{slug}', [Bacci_MainController::class, 'posting'])->where('post', '[A-z_\-]+');
+// Route::get('/posts/{slug}', [Bacci_MainController::class, 'posting'])->where('post', '[A-z_\-]+');

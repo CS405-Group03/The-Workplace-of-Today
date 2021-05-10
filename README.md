@@ -1,8 +1,5 @@
 ## THE WORKPLACE OF TODAY
 
-## Sample01
-Sample Post 02
-
 == Description ==
 
 The Workplace of Today is a static website that contains fixed webpages contents.
