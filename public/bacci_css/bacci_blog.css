@@ -19,20 +19,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* 
-#blogpage {
-    margin-bottom: 100vw;
-    padding-bottom: 50vw;
-    position: absolute;
-}
-
-.main_blog_content {
-    margin-bottom: 100vw;
-    padding-bottom: 50vw;
-    position: absolute;
-}
- */
- 
 #blog_profpic_left {
     float: left;
     clear: right;

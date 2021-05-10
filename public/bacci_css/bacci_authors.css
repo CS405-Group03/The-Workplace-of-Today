@@ -16,15 +16,12 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 */
 
 .author_content {
-	border-style: inset;
 	position: absolute;
 	right: 2vw;
 	top: 8vw;
-	/* height: 30vw; */
-	height: 55vw;
+	height: wrap;
 	width: 20vw;
 	padding: 1vw 2vw 1vw 2vw;
-	overflow-y: scroll;
     background-color: rgba(240, 248, 255, 0.562);
 }
 
@@ -40,20 +37,15 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 	color: maroon;
 }
 
-.author_picture{
-	margin: 0vw 4vw 0vw 4vw;
-	text-align: center;
-}
-
 .author_img {
-	width: 12vw;
-	height: 12vw;
+	width: 5vw;
+	height: 5vw;
 	overflow: hidden;
 	border-radius: 50%;
 }
 
 .author_font{
-	font-family: courier;
+	font-family: century gothic;
 	font-size: 16px;
 }
 

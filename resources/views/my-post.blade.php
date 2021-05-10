@@ -8,10 +8,11 @@
 
     <body>
         <article>
-            <?= $my_post; ?>
+            <?= 
+                $my_post; 
+                <a href = "/"> Go Back </a>
+            ?>
         </article>
-
-        <a href = "/"> Go Back </a>
     </body>
 
 </html>

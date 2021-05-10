@@ -8,8 +8,8 @@
 
     <body>
         <div class="signup_content">
-            <li class="active_acc"><a class="sign" href=#> Sign Up </a></li>
-            <li class="signin_content"><a class="sign" href=#> Sign In </a></li>
+            <li class="acc"><a class="sign" href=#> Sign Up </a></li>
+            <li class="acc"><a class="sign" href=#> Sign In </a></li>
         </div>
             <img class="user_img" src="img/laurence.jpeg">
     </body>
