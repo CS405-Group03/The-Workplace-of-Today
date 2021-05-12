@@ -41,22 +41,62 @@
 			
 			<br>
 
-			<h3> Web Development Team: </h3>
-			<ul>
-				<li> Laurence Angelo T. Batu	-	Main Developer; Assistant Web Designer; Debugger; Document Compiler </li>
-				<li> Crista Mae E. Chiangco		-	Main Web Designer; Assistant Developer </li>
-				<li> Edward John M. Aguilar		-	Assisstant Developer; Assistant Web Designer </li>
-				<li> Chara Mae P. Inodeo		-	Assistant Web Designer; News and Information content (Documentation) </li>
-				<li> Maria Kyla C. Casi			-	Assistant Web Designer; News and Information content (Documentation) </li>
-			</ul>
+			<h3> Web Development Team </h3>
+			<table id="we_info">
+				<tr>
+					<td id="img"><img id="pic" src="/img/laurenceangelo.jpeg"></td>
+					<td id="member">
+						<li id="name">Laurence Angelo T. Batu</li><hr/>
+						<li id="others">Main Developer; Assistant Web Designer; Debugger; Document Compiler</li>
+						<li id="others">Pamantasan ng Lungsod ng Pasig</li>
+						<li id="others">batu_laurenceangelo@plpasig.edu.ph</li>
+					</td>
+				</tr>	
+				<tr>
+					<td id="img"><img id="pic" src="/img/cristamae.jpeg"></td>
+					<td id="member">
+						<li id="name">Crista Mae E. Chiangco</li><hr/>
+						<li id="others">Main Web Designer; Assistant Developer</li>
+						<li id="others">Pamantasan ng Lungsod ng Pasig</li>
+						<li id="others">chiangco_cristamae@plpasig.edu.ph</li>
+					</td>
+				</tr>
+				<tr>
+					<td id="img"><img id="pic" src="/img/edwardjohn.jpeg"></td>
+					<td id="member">
+						<li id="name">Edward John M. Aguilar</li><hr/>
+						<li id="others">Assistant Developer; Assistant Web Designer</li>
+						<li id="others">Pamantasan ng Lungsod ng Pasig</li>
+						<li id="others">aguilar_edwardjohn@plpasig.edu.ph</li>
+					</td>
+				</tr>
+				<tr>
+					<td id="img"><img id="pic" src="/img/charamae.jpeg"></td>
+					<td id="member">
+						<li id="name">Chara Mae P. Inodeo</li><hr/>
+						<li id="others">Assistant Web Designer; News and Information Content (Documentation)</li>
+						<li id="others">Pamantasan ng Lungsod ng Pasig</li>
+						<li id="others">inodeo_charamae@plpasig.edu.ph</li>
+					</td>
+				</tr>
+				<tr>
+					<td id="img"><img id="pic" src="/img/mariakyla.jpeg"></td>
+					<td id="member">
+						<li id="name">Maria Kyla C. Casi</li><hr/>
+						<li id="others">Assistant Web Designer; News and Information Content (Documentation)</li>
+						<li id="others">Pamantasan ng Lungsod ng Pasig</li>
+						<li id="others">casi_mariakyla@plpasig.edu.ph</li>
+					</td>
+				</tr>
+			</table>
 			
-			<h3> Connect With Us: </h3>
-			<ul>
-				<li> E-Mail	:		theworkplaceoftoday@gmail.com </li>
+			<h3> Connect With Us </h3>
+			<ul id="cws">
+				<li> E-Mail	:		<a id="socmed"> theworkplaceoftoday@gmail.com </a> </li>
 				<li> Contact # :	0957 - 3673 - 075 </li>
 				<li> Telephone :	202-555-0185 </li>
-				<li> Facebook :		<a> https://www.facebook.com/groups/the-workplace-of-today </a> </li>
-				<li> Youtube :		<a> https://www.youtube.com/channel/the-workplace-of-today </a> </li>
+				<li> Facebook :		<a id="socmed"> https://www.facebook.com/groups/the-workplace-of-today </a> </li>
+				<li> Youtube :		<a id="socmed"> https://www.youtube.com/channel/the-workplace-of-today </a> </li>
 			</ul>
  		</div>
 

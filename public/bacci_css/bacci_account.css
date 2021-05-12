@@ -5,8 +5,8 @@ div.signup_content {
     /* margin-top: 6%; */
 	padding : 1% 0% 1% 1%;
     right: 0;
-    /* background-color: yellow; */
-    width: 20vw;
+    
+    margin-top: 6%;
 }
 
 .user_img {
@@ -19,27 +19,26 @@ div.signup_content {
     position: fixed;
 }
 
-li.active_acc, li.signin_content {
-    padding: 1% 10% 1% 10%;
-    text-align: center;
-    width: 24%;
+li.acc {
+    /* padding: 1% 10% 1% 10%; */
+    /* width: 24%; */
     list-style: none;
-    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 20vw;
 }
 
-/* 
+
 a.sign {
-    color: black;
-} */
-
-li.active_acc:hover, li.signin_content:hover {
-    background-color: darkgrey;
-    /* color: white; */
+    color: white;
+    text-decoration: none;
 }
 
-a.sign, li.active_acc:active, li.signin_content:active {
-    /* background-color: lightgrey; */
-    text-decoration: none;
+a.sign:hover, li.acc:hover {
+   color: black;
+   background-color: darkgrey;
+   transition: ease 0.5s;
+}
+
+a.sign:active {
     color: white;
-    transition: ease 0.5s;
 }

@@ -25,24 +25,14 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
 	<body>
         <div class = "author_content">
-            <h3 class="wd"> Website Development Team </h3>
+            <h3 class="wd"> Author </h3>
             <hr class="line">
 
             <div class = "chara">
                 <div class="author_picture">
                     <a href="img/chara.jpeg"><img class = "author_img" src="img/charamae.jpeg"> </a>
+                    <p class="author_font">Chara Mae Inodeo</p>
                 </div>
-
-                <div class="author_font">
-                    <p><strong> Name :</strong> Chara Mae Inodeo </p>
-                    <p><strong> Section :</strong> BSCS3A </p>
-                    <p><strong> School :</strong> Pamantasan ng Lungsod ng Pasig</p>
-                    <p><strong> Email :</strong> inodeo_charamae @plpasig.edu.ph</p>
-                    <p class = "author_fontt"><strong> Website Developer Team Position</strong> </p>
-                    <p class = "author_fontt">(Content Gatherer)</p>
-                    <p class = "author_fontt">(Assistant Designer)</p>
-                </div>
-            </div>
 
             <hr class="line">
             <br>
@@ -50,18 +40,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
             <div class = "kyla">
                 <div class="author_picture">
                     <a href="img/kyla.jpeg"><img class = "author_img" src="img/mariakyla.jpeg"></a>
+                    <p class="author_font">Maria Kyla Casi</p>
                 </div>
-
-                <div class="author_font">
-                    <p><strong> Name :</strong> Maria Kyla Casi </p>
-                    <p><strong> Section :</strong> BSCS3A </p>
-                    <p><strong> School :</strong>  Pamantasan ng Lungsod ng Pasig</p>
-                    <p><strong> Email :</strong>  casi_mariakyla @plpasig.edu.ph</p>
-                    <p class = "author_fontt"><strong> Website Developer Team Position</strong> </p>
-                    <p class = "author_fontt">(Content Gatherer)</p>
-                    <p class = "author_fontt">(Assistant Designer)</p>
-                </div>
-            </div>
 
             <hr class="line">
             <br>
@@ -69,18 +49,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
             <div class = "crista">
                 <div class="author_picture">
                     <a href="img/crista.jpeg"><img class = "author_img" src="img/cristamae.jpeg"></a>
+                    <p class="author_font">Crista Mae Chiangco</p>
                 </div>
-
-                <div class="author_font">
-                    <p><strong> Name :</strong> Crista Mae Chiangco </p>
-                    <p><strong> Section :</strong> BSCS3A </p>
-                    <p><strong> School :</strong>  Pamantasan ng Lungsod ng Pasig</p>
-                    <p><strong> Email :</strong>  chiangco_cristamae @plpasig.edu.ph</p>
-                    <p class = "author_fontt"><strong> Website Developer Team Position</strong> </p>
-                    <p class = "author_fontt">(Website and Pages Layout Handler)</p>
-                    <p class = "author_fontt">(Main Designer)</p>
-                </div>
-            </div>
 
             <hr class="line">
             <br>
@@ -88,18 +58,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
             <div class = "laurence">
                 <div class="author_picture">
                     <a href="img/laurence.jpeg"><img class = "author_img" src="img/laurenceangelo.jpeg"></a>
+                    <p class="author_font">laurence Angelo Batu</p>
                 </div>
-
-                <div class="author_font">
-                    <p><strong> Name :</strong> Laurence Angelo Batu </p>
-                    <p><strong> Section :</strong> BSCS3A </p>
-                    <p><strong> School :</strong>  Pamantasan ng Lungsod ng Pasig</p>
-                    <p><strong> Email :</strong>  batu_laurenceangelo @plpasig.edu.ph</p>
-                    <p class = "author_fontt"><strong> Website Developer Team Position</strong> </p>
-                    <p class = "author_fontt">(Project Leader)</p>
-                    <p class = "author_fontt">(Main Developer)</p>
-                </div>
-            </div>
 
             <hr class="line">
             <br>
@@ -107,17 +67,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
             <div class = "edward">
                 <div class="author_picture">
                     <a href="img/edward.jpeg"><img class = "author_img" src="img/edwardjohn.jpeg"></a>
+                    <p class="author_font">Edward John Aguilar</p>
                 </div>
-
-                <div class="author_font">
-                    <p><strong> Name :</strong> Edward John Aguilar </p>
-                    <p><strong> Section :</strong> BSCS3A </p>
-                    <p><strong> School :</strong>  Pamantasan ng Lungsod ng Pasig</p>
-                    <p><strong> Email :</strong>  aguilar_edwardjohn @plpasig.edu.ph</p>
-                    <p class = "author_fontt"><strong> Website Developer Team Position</strong> </p>
-                    <p class = "author_fontt">(Assistant Developer)</p>
-                </div>
-            </div>
 
             <hr class="line">
             <br>
