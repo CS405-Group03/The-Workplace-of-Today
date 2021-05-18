@@ -1,8 +1,6 @@
 div.signup_content {
-    /* float: right; */
     clear:left;
     position: fixed;
-    /* margin-top: 6%; */
 	padding : 1% 0% 1% 1%;
     right: 0;
     
@@ -11,7 +9,6 @@ div.signup_content {
 
 .user_img {
     right: 0;
-	/* padding : 2% 3% 2% 3%; */
     margin: .5vw 3vw 0vw 0vw;
     border-radius: 50%;
     width : 5vw;
@@ -20,13 +17,12 @@ div.signup_content {
 }
 
 li.acc {
-    /* padding: 1% 10% 1% 10%; */
-    /* width: 24%; */
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
+    padding: 0% 0% 2% 3%;
     width: 20vw;
+    height: 10vh;
 }
-
 
 a.sign {
     color: white;
@@ -39,6 +35,7 @@ a.sign:hover, li.acc:hover {
    transition: ease 0.5s;
 }
 
-a.sign:active {
+a.sign:active, li.acc:active {
+    background-color: maroon;
     color: white;
 }
