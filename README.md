@@ -10,6 +10,7 @@ The Website will give focus and notice about the working places in the world, ma
 == Homepage ==
 
 **See to the Wireframe
+
 ![alt text](https://github.com/CS405-Group03/The-Workplace-of-Today/blob/8213f78e55b6407933ec60c1a49336681012072d/README%20(Wireframe).png?raw=true)
 
 In this web page, you will see the header, body and footer.
