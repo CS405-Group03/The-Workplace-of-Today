@@ -10,6 +10,7 @@ The Website will give focus and notice about the working places in the world, ma
 == Homepage ==
 
 **See to the Wireframe
+<img width = “900” alt = “The Workplace of Today Wireframe” src = “https://github.com/CS405-Group03/The-Workplace-of-Today/blob/8213f78e55b6407933ec60c1a49336681012072d/README%20(Wireframe).png”>
 In this web page, you will see the header, body and footer.
 
 ** In Header there are the following: Navigation Bar in a clickable icon of three vertical-positioned bars on the upper left corner of the page next to website title : The Workplace of Today; Where this navigation bar contains: 
