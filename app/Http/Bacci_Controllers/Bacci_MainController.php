@@ -29,6 +29,11 @@ class Bacci_MainController
         return view('index');
     }
 
+    public function registercontrol()
+    {
+        return view('bacci_register');
+    }
+
     public function articlescontrol()
     {
         return view('bacci_articles');

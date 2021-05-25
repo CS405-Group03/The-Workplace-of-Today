@@ -30,7 +30,7 @@
         @yield('web_bg')
 
         <div class = "frontpage_content">
-            <table class="tbl_frontpage">
+            <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -43,12 +43,12 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class="readmore" href = "/articles">Read More</a>
+                        <a class = "readmore" href = "/articles"> Read More </a>
                     </td>
                 </tr>
             </table>
 
-            <table class="tbl_frontpage">
+            <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -61,12 +61,12 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class="readmore" href = "/news">Read More</a>
+                        <a class = "readmore" href = "/news"> Read More </a>
                     </td>
                 </tr>
             </table>
 
-            <table class="tbl_frontpage">
+            <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -79,12 +79,12 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class="readmore" href = "/articles">Read More</a>
+                        <a class = "readmore" href = "/articles"> Read More </a>
                     </td>
                 </tr>
             </table>
 
-            <table class="tbl_frontpage">
+            <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
                         <img class = "pic_source" src = "/icons/dyaryo3.jpg">
@@ -97,7 +97,7 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class="readmore" href = "/news">Read More</a>
+                        <a class = "readmore" href = "/news"> Read More </a>
                     </td>
                 </tr>
             </table>

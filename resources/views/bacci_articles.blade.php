@@ -31,14 +31,16 @@
     <body>
         @include('layouts/bacci_web_bg')
 
-        <div id="articlespage">
+        <div id = "articlespage">
             <div class = "main_articles_content">
                 <i>
-                    <h3>Early deaths rising in workers using methylene chloride paint strippers</h3>
+                    <h3> Early deaths rising in workers using methylene chloride paint strippers </h3>
                     <p>
                         First comprehensive review in US reveals more fatalities than expected due to deadly chemical
-                        <br>Source: University of California - San Francisco
-                        <br>April 19, 2021
+                        <br>
+                        Source: University of California - San Francisco
+                        <br>
+                        April 19, 2021
                     </p>
                 </i>
 
@@ -98,11 +100,13 @@
 
 
                 <i>
-                    <h3>COVID-19 and labour constraints: Recalling former health care workers not enough</h3>
+                    <h3> COVID-19 and labour constraints: Recalling former health care workers not enough </h3>
                     <p>
                         Report examines factors affecting U.S. labour supply in essential industries during the pandemic
-                        <br>Source: McGill University
-                        <br>April 2, 2020
+                        <br>
+                        Source: McGill University
+                        <br>
+                        April 2, 2020
                     </p>
                 </i>
 
@@ -121,7 +125,7 @@
                     "To minimize the spread of the pandemic, state governments are increasingly restricting who can work outside the home to workers in essential industries. Roughly 60% of employment is in these industries," says Fabian Lange, a professor of economics at McGill University and Canada Research Chair in Labour and Personnel Economics. "Reducing the strain on the health care workforce will be essential as they stand on the front lines of the battle against the pandemic."
                 </p>
 
-                <h3>Childcare</h3>
+                <h3> Childcare </h3>
                 <p>
                     According to the researchers, an important factor limiting the labour supply of people who can work outside the home is childcare. School and daycare closures have made it substantially more difficult for some employees to go to work. Because of social distancing, grandparents, friends, and neighbors are less able to pick up any of the slack.
                 </p>
@@ -130,7 +134,7 @@
                     Roughly a quarter of the U.S. workforce has young children at home and may therefore be constrained from full-time work. Rates are slightly higher in essential industries and highest in health care, where 5.6 million workers have at least one child under 12. Health care workers are also more likely to be single parents, and especially single mothers. It is therefore imperative to implement policies addressing childcare for health care workers to maintain labour supply in this crucial sector.
                 </p>
 
-                <h3>At-risk populations in the workforce</h3>
+                <h3> At-risk populations in the workforce </h3>
                 <p>
                     "Another limiting factor on labour supply could be attempts to limit outside contact for members of the household who are most at-risk. At-risk populations include those aged 65 and over, people with compromised immune systems, and people with underlying medical conditions," says Lange.
                 </p>
@@ -139,7 +143,7 @@
                     About one-fifth of the workforce is in an at-risk group or lives with someone who is more likely to suffer severe consequences from COVID-19. In health care, 25% of workers fall into this category. Overall, 18.5 million essential (non-health) workers and 4.6 million health care workers are in a high-risk group that limits their ability to participate in the labour force in order to protect themselves or a family member with underlying conditions.
                 </p>
 
-                <h3>Supply of health care workers</h3>
+                <h3> Supply of health care workers </h3>
                 <p>
                     According to Lange, health care workers are subject to additional constraints. "They are under tremendous stress -- not only because they face an increase in patients requiring intensive care, but also because of the likelihood that they themselves become infected."
                 </p>

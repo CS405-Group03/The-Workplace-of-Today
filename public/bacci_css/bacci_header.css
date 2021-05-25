@@ -15,9 +15,11 @@
                                 Assistant Designer
 */
 
+/* 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+*/
 
 body {
     margin : 0;
@@ -125,10 +127,12 @@ li.link {
 	padding : 0.5em 0em 0.5em 0em;
 }
 
-/* log In Content ----------------------------------*/
+/* LogIn Content ---------------------------------- */
+
 div.login {
     height: inherit;
     width: 20vw;
+	height: 20vw;
     display: block;
     position: relative;
     right: 0;

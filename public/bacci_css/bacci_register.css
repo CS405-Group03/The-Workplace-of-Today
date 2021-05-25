@@ -1,4 +1,23 @@
-body, input, button {font-family: century gothic;}
+/*
+CS405_Group 03
+"The Workplace of Today" (Static Website)
+
+Members:
+Aguilar, Edward John    ->  Assistant Developer
+Batu, Laurence Angelo   ->  Project Leader
+							Main Developer
+
+Chiangco, Crista Mae    ->  Website and Pages Layout Handler
+							Main Designer
+Casi, Maria Kyla        ->  Content Gatherer (News, Informations and Blogs)
+							Assistant Designer
+Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
+							Assistant Designer
+*/
+
+body, input, button {
+    font-family: century gothic;
+}
 
 button {
     margin-top: 5%;
@@ -8,9 +27,13 @@ button {
     color: white;
 }
 
-button:hover {background-color: crimson; color: black;}
+button:hover {
+    background-color: crimson; color: black;
+}
 
-button:active {background-color: red; color: white;}
+button:active {
+    background-color: red; color: white;
+}
 
 .form_container {
     background-color: rgba(169, 169, 169, 0.5);
@@ -20,7 +43,9 @@ button:active {background-color: red; color: white;}
     padding: 2% 4% 2% 4%;
 }
 
-form {background-color: white; padding: 3% 1% 3% 1%;}
+form {
+    background-color: white; padding: 3% 1% 3% 1%;
+}
 
 table {
     margin: auto;
@@ -34,21 +59,33 @@ table {
     width: 30%;
 }
 
-#inp {padding: 2% 2% 2% 2%; width: 50%;}
+#inp {
+    padding: 2% 2% 2% 2%; width: 50%;
+}
 
-#txt, #txt_add {width: 200px; text-transform: capitalize;}
+#txt, #txt_add {
+    width: 200px; text-transform: capitalize;
+}
 
-#txt_add {width: 300px;}
+#txt_add {
+    width: 300px;
+}
 
-#txt_acc {width: 60%; margin: 0.5% 0;}
+#txt_acc {
+    width: 60%; margin: 0.5% 0;
+}
 
 #account {
     text-align: center;
 }
 
-#txt::placeholder, #txt_add {font-style: italic;}
+#txt::placeholder, #txt_add {
+    font-style: italic;
+}
 
-#txt_acc {font-style: none;}
+#txt_acc {
+    font-style: none;
+}
 
 input {
     border: none;
@@ -63,7 +100,9 @@ input:focus {
     font-weight: bold; 
     outline: none;
 }
-/* 
+
+/*
 table, tr, td {
     border: 1px solid black;
-} */
+} 
+*/

@@ -32,7 +32,7 @@
         @include('layouts/bacci_web_bg')
         
 		<div class = "sitemap_content">
-			<h1 id="sitemaptitle"> Sitemap </h1>
+			<h1 id = "sitemaptitle"> Sitemap </h1>
 			
 			<h3> Workplace Content </h3>
 			<ul>

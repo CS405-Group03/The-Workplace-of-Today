@@ -32,51 +32,61 @@
 	<body>
         @include('layouts/bacci_web_bg')
     
-        <div id="blogpage">
+        <div id = "blogpage">
             <div class = "main_blog_content">
 
-                <div id="blog_content">    
-                    <img id="blog_profpic_left" src="/img/cristamae.jpeg">
-                    <article id="blog_art_left">
-                        2021, January 19th Mon<br><br>
+                <div id = "blog_content">    
+                    <img id = "blog_profpic_left" src = "/img/cristamae.jpeg">
+                    <article id = "blog_art_left">
+                        2021, January 19th Mon
+                        <br><br>
                         If opportunity doesn't knock, build a door.
-                        <br>-- Crista 
+                        <br>
+                        -- Crista 
                     </article>
                 </div>
                 
-                <div id="blog_content">    
-                    <img id="blog_profpic_right" src="/img/edwardjohn.jpeg">
-                    <article id="blog_art_right">
-                        2021, April 19th Mon<br><br>
+                <div id = "blog_content">    
+                    <img id = "blog_profpic_right" src = "/img/edwardjohn.jpeg">
+                    <article id = "blog_art_right">
+                        2021, April 19th Mon
+                        <br><br>
                         Nothings more fun that doing what you people say you can't do. You have to balance your passion, not your time.
-                        <br>-- Edward  
+                        <br>
+                        -- Edward  
                     </article>
                 </div>
 
-                <div id="blog_content">    
-                    <img id="blog_profpic_left" src="/img/laurenceangelo.jpeg">
-                    <article id="blog_art_left">
-                        2021, February 29th Mon<br><br>
+                <div id = "blog_content">    
+                    <img id = "blog_profpic_left" src = "/img/laurenceangelo.jpeg">
+                    <article id = "blog_art_left">
+                        2021, February 29th Mon
+                        <br><br>
                         Coming together is a beginning. Keeping together is process. Working together is success...
-                        <br>-- Laurence
+                        <br>
+                        -- Laurence
                     </article>
                 </div>
 
-                <div id="blog_content">    
-                    <img id="blog_profpic_right" src="/img/mariakyla.jpeg">
-                    <article id="blog_art_right">
-                        2020, May 09th Mon<br><br>
+                <div id = "blog_content">    
+                    <img id = "blog_profpic_right" src = "/img/mariakyla.jpeg">
+                    <article id = "blog_art_right">
+                        2020, May 09th Mon
+                        <br><br>
                         You get what you work for, not what you wish for!
-                        <br>-- Kyla
+                        <br>
+                        -- Kyla
                     </article>
                 </div>
 
-                <div id="blog_content">    
-                    <img id="blog_profpic_left" src="/img/charamae.jpeg">
-                    <article id="blog_art_left">
-                        2019, April 19th Mon<br><br>
+                <div id = "blog_content">    
+                    <img id = "blog_profpic_left" src = "/img/charamae.jpeg">
+                    <article id = "blog_art_left">
+                        2019, April 19th Mon
+                        <br><br>
                        ... today is another chance to get better.
-                        <br>-- Chara
+                        <br>
+                        -- Chara
                     </article>
                 </div>
 

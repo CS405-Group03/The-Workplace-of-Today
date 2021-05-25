@@ -44,9 +44,11 @@ Route::get('/aboutus', [Bacci_MainController::class, 'aboutcontrol']);
 
 Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
-Route::get('/register', function(){
-    return view('/layouts/bacci_register');
-});
+Route::get('/register', [Bacci_MainController::class, 'registercontrol']);
+
+// Route::get('/register', function(){
+//     return view('/bacci_register');
+// });
 
 // Route::get('/signup', function(){
 //     return view ('/layouts/bacci_signup');   
