@@ -28,22 +28,22 @@
 
     <body>
         <div class="header_content">
-            @extends('layouts/bacci_account')
+            <!-- @extends('layouts/bacci_account') -->
             
             <div class="navbar">
                
-                <div class="dropdown">
-                    <img class="dropbtn" src = "/icons/ico_menu.png">
-                    <div class="dropdown-content">
-                        <li class="link"><a class="menu" href="/">Home</a></li>
-                        <li class="link"><a class="menu" href="/articles">Articles</a></li>
-                        <li class="link"><a class="menu" href="/news">News</a></li>
-                        <li class="link"><a class="menu" href="/blog">Blog</a></li>
-                        <li class="link"><a class="menu" href="/aboutus">About Us</a></li>
+                <div class = "dropdown">
+                    <img class = "dropbtn" src = "/icons/ico_menu.png">
+                    <div class = "dropdown-content">
+                        <li class = "link"><a class = "menu" href = "/"> Home </a></li>
+                        <li class = "link"><a class = "menu" href = "/articles"> Articles </a></li>
+                        <li class = "link"><a class = "menu" href = "/news"> News </a></li>
+                        <li class = "link"><a class = "menu" href = "/blog"> Blog </a></li>
+                        <li class = "link"><a class = "menu" href = "/aboutus"> About Us </a></li>
                     </div>
                 </div>
                       
-                <h1 class="webtitle"><a href = "/" class="webtitle_a"> The Workplace of Today </a></h1>
+                <h1 class = "webtitle"><a href = "/" class = "webtitle_a"> The Workplace of Today </a></h1>
              
             </div>
         </div>

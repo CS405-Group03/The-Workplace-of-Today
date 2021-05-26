@@ -15,9 +15,11 @@
                                 Assistant Designer
 */
 
+/* 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+*/
 
 li.link:hover, td.readmorebtn:hover {
 	background-color : crimson;
@@ -32,12 +34,19 @@ a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
 	color : white;
 }
 
-/* Blog, News, and Article Page */
-.blog_title {background-image: url("/icons/blog.jpg");}
+/* Blog, News, and Article Page --------------- */
 
-.news_title {background-image: url("/icons/news.jpg");}
+.blog_title {
+    background-image: url("/icons/blog.jpg");
+}
 
-.articles_title {background-image: url("/icons/articles.jpg");}
+.news_title {
+    background-image: url("/icons/news.jpg");
+}
+
+.articles_title {
+    background-image: url("/icons/articles.jpg");
+}
 
 .blog_title, .news_title, .articles_title {
     position: absolute;
@@ -70,7 +79,9 @@ a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
     margin: 15vw 10vw 10vw 10vw;
 }
 
-.blog_title {height: 4vw;}
+.blog_title {
+    height: 4vw;
+}
 
 #blog {
 	background-color: rgba(255, 255, 255, 0.8);

@@ -20,57 +20,58 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 	<head>
 		<title> News/Articles </title>
 
-		<link rel="stylesheet" type="text/css" href="bacci_css/bacci_authors.css">
+		<link rel = "stylesheet" type = "text/css" href = "bacci_css/bacci_authors.css">
 	</head>
 
 	<body>
         <div class = "author_content">
-            <h3 class="wd"> Author </h3>
-            <hr class="line">
+            <h3 class = "wd"> Author </h3>
+            <hr class = "line">
+            <br>
 
             <div class = "chara">
-                <div class="author_picture">
-                    <a href="img/chara.jpeg"><img class = "author_img" src="img/charamae.jpeg"> </a>
-                    <p class="author_font">Chara Mae Inodeo</p>
+                <div class = "author_picture">
+                    <a href = "img/chara.jpeg"><img class = "author_img" src = "img/charamae.jpeg"> </a>
+                    <p class = "author_font"> Chara Mae Inodeo </p>
                 </div>
 
-            <hr class="line">
+            <hr class = "line">
             <br>
 
             <div class = "kyla">
-                <div class="author_picture">
-                    <a href="img/kyla.jpeg"><img class = "author_img" src="img/mariakyla.jpeg"></a>
-                    <p class="author_font">Maria Kyla Casi</p>
+                <div class = "author_picture">
+                    <a href = "img/kyla.jpeg"><img class = "author_img" src = "img/mariakyla.jpeg"></a>
+                    <p class = "author_font"> Maria Kyla Casi </p>
                 </div>
 
-            <hr class="line">
+            <hr class = "line">
             <br>
 
             <div class = "crista">
-                <div class="author_picture">
-                    <a href="img/crista.jpeg"><img class = "author_img" src="img/cristamae.jpeg"></a>
-                    <p class="author_font">Crista Mae Chiangco</p>
+                <div class = "author_picture">
+                    <a href = "img/crista.jpeg"><img class = "author_img" src = "img/cristamae.jpeg"></a>
+                    <p class = "author_font"> Crista Mae Chiangco </p>
                 </div>
 
-            <hr class="line">
+            <hr class = "line">
             <br>
 
             <div class = "laurence">
-                <div class="author_picture">
-                    <a href="img/laurence.jpeg"><img class = "author_img" src="img/laurenceangelo.jpeg"></a>
-                    <p class="author_font">laurence Angelo Batu</p>
+                <div class = "author_picture">
+                    <a href = "img/laurence.jpeg"><img class = "author_img" src = "img/laurenceangelo.jpeg"></a>
+                    <p class = "author_font"> Laurence Angelo Batu </p>
                 </div>
 
-            <hr class="line">
+            <hr class = "line">
             <br>
 
             <div class = "edward">
-                <div class="author_picture">
-                    <a href="img/edward.jpeg"><img class = "author_img" src="img/edwardjohn.jpeg"></a>
-                    <p class="author_font">Edward John Aguilar</p>
+                <div class = "author_picture">
+                    <a href = "img/edward.jpeg"><img class = "author_img" src = "img/edwardjohn.jpeg"></a>
+                    <p class = "author_font"> Edward John Aguilar </p>
                 </div>
 
-            <hr class="line">
+            <hr class = "line">
             <br>
 
         </div>

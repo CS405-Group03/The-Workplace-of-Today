@@ -15,9 +15,11 @@
                                 Assistant Designer
 */
 
+/* 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+*/
 
 .sitemap_content {
     width: 50vw;

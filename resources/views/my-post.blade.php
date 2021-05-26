@@ -1,3 +1,8 @@
+<!--
+    This is just a sample webpage view including the its model and controller, organizing its contents...
+-->
+
+
 <!DOCTYPE html>
 
 <html lang = "{{ str_replace('_', '-', app()->getLocale()) }}">
