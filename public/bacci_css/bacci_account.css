@@ -15,29 +15,33 @@
                                 Assistant Designer
 */
 
-div.signup_content {
-    clear:left;
-    position: fixed;
-	padding : 1% 0% 1% 1%;
-    right: 0;
-    margin-top: 6%;
-}
-
 .user_img {
     right: 0;
-    margin: .5vw 3vw 0vw 0vw;
+    margin: 1vw 3.3vw 0vw 0vw;
     border-radius: 50%;
     width : 5vw;
     height : 5vw;
     position: fixed;
 }
 
+div.signup_content {
+    /* clear: left; */
+    position: fixed;
+	/* padding : 0% 0% 1% 1%; */
+    padding-top: 1%;
+    right: 0;
+    margin-top: 5.6%;
+    margin-right: 2%;
+}
+
 li.acc {
     list-style: none;
     background-color: maroon;
-    padding: 0% 0% 2% 3%;
-    width: 20vw;
-    height: 10vh;
+	text-align: center;
+	font-size: 20px;
+    padding: 10%;
+    width: 10vw;
+    height: 3vh;
 }
 
 a.sign {
@@ -52,6 +56,46 @@ a.sign:hover, li.acc:hover {
 }
 
 a.sign:active, li.acc:active {
-    background-color: white;
-    color: maroon;
+    background-color: rgb(160, 39, 39);;
+    color: white;
 }
+
+
+
+/* Dropdown for Account... */
+
+.acc_dropdwn {
+	float: left;
+	overflow: hidden;
+}
+
+
+.acc_dropdwn {
+	font-size: 30px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+
+.acc_dropdwn:hover, .user_img:hover {
+	color : black;
+	transition: ease 0.5s;
+}
+
+
+.signup_content {
+	display: none;
+	position: absolute;
+	margin: 0vw 0vw 0vw -2vw;
+}
+
+.acc_dropdwn:hover .signup_content {
+	display: block;
+}
+
+/* End Dropdown for Account... */

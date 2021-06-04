@@ -36,10 +36,13 @@ body {
 	text-decoration: none;
 }
 
+/* Dropdown Class inside the Navigation Bar... */
+
 .dropdown {
 	float: left;
 	overflow: hidden;
 }
+
 
 .dropdown .dropbtn{
 	font-size: 30px;
@@ -52,10 +55,12 @@ body {
 	margin: 0;
 }
 
+
 .dropdown:hover, .dropbtn:hover {
 	color : black;
 	transition: ease 0.5s;
 }
+
 
 .dropdown-content {
 	display: none;
@@ -66,6 +71,8 @@ body {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+/* End Transitions... */
 
 div.header_content {
 	background-color : maroon;
@@ -80,12 +87,11 @@ div.header_content {
 
 img.dropbtn, h1.webtitle  {
 	margin-left : 0.5%;
-	/* margin-left : 2.5%; */
 	margin-top : -0.01em;
 	display : inline-block;
 }
 
-img.dropbtn, img.loginbtn {
+img.dropbtn{
     border: none;
     outline: none;
     color: white;
@@ -96,21 +102,6 @@ img.dropbtn, img.loginbtn {
 	width: 3vw;
 	height: 3vw;
 	object-fit: contain;
-}
-
-div.login {
-	float: right;
-	right: 0;
-}
-
-.webtitle_a, .webtitle_a:active {
-	text-decoration: none;
-	color: White;
-}
-
-.webtitle_a:hover {
-	color : darkgray;
-	transition: ease 1s;
 }
 
 a.menu {
@@ -127,8 +118,20 @@ li.link {
 	padding : 0.5em 0em 0.5em 0em;
 }
 
-/* LogIn Content ---------------------------------- */
+/* Website Title ---------- */
 
+.webtitle_a, .webtitle_a:active {
+	text-decoration: none;
+	color: White;
+}
+
+.webtitle_a:hover {
+	color : darkgray;
+	transition: ease 1s;
+}
+
+/* LogIn Content ---------------------------------- */
+/* 
 div.login {
     height: inherit;
     width: 20vw;
@@ -149,3 +152,10 @@ li.log {
 a.logg{
     color: black;
 }
+
+div.login {
+	float: right;
+	right: 0;
+}
+
+*/
