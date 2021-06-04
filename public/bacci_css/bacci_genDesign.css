@@ -66,6 +66,8 @@ a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
     margin: 15vw 10vw 10vw 3vw;
     float: left;
     width: 58vw;
+    /* bottom: -0.1vw; */
+    /* padding-bottom: 10vw; */
 }
 
 .blog_title {

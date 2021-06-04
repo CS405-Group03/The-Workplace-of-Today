@@ -25,8 +25,8 @@
 
     <body>
         <div class = "signup_content">
-            <li class = "acc"><a class = "sign" href = "/register"> Sign Up </a></li>
-            <li class = "acc"><a class = "sign" href = #> Sign In </a></li>
+            <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
+            <a class = "sign" href = #><li class = "acc"> Sign In </li></a>
         </div>
             
             <!-- example image being seen while LogIn... -->
