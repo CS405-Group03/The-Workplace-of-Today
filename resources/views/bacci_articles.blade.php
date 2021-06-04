@@ -158,6 +158,8 @@
         <!-- There's really something with this bacci_authors, can't fix... -->
 
         @include('layouts/bacci_header')
+        @include('layouts/bacci_authors')
         @include('layouts/bacci_footer')
+        <!-- there's a problem with the bacci_authors layout -->
     </body>
 </html>

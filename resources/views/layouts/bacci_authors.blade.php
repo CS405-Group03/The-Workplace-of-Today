@@ -73,7 +73,7 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
             <hr class = "line">
             <br>
-
+            
         </div>
     </body>
 </html>
