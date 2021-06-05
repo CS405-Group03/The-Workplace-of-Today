@@ -24,12 +24,16 @@
     </head>
 
     <body>
-        <div class = "signup_content">
-            <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
-            <a class = "sign" href = #><li class = "acc"> Sign In </li></a>
-        </div>
-            
-            <!-- example image being seen while LogIn... -->
+        <div class = "acc_dropdwn">
             <img class = "user_img" src = "img/laurence.jpeg">
+            
+            <div class = "signup_content">
+                
+                <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
+
+                <a class = "sign" href = #><li class = "acc"> Sign In </li></a>
+
+            </div>
+        </div>
     </body>
 </html>
