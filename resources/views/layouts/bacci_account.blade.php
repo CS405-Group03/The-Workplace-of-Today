@@ -25,15 +25,28 @@
 
     <body>
         <div class = "acc_dropdwn">
-            <img class = "user_img" src = "img/laurence.jpeg">
+            <img class = "user_img" src = "img/ico_user.png">
             
             <div class = "signup_content">
                 
+                <li class = "sign_in"> Username : </li>
+                <input id="sign_in_name" placeholder="Enter Username"/>
+                
+                <li class = "sign_in"> Password : </li>
+                <input id="sign_in_pass" type="password" placeholder="Enter Password"/>
+
+                <li class = "breakline"> </li>
+                <li class = "breakline"> </li>
+                <li class = "breakline"> </li>
+
+                <a class = "sign" href = ""><li class = "acc"> Sign In </li></a>
+
+                <li class = "breakline"> </li>
+                
                 <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
 
-                <a class = "sign" href = #><li class = "acc"> Sign In </li></a>
-
             </div>
+
         </div>
     </body>
 </html>
