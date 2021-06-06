@@ -15,23 +15,39 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 							Assistant Designer
 */
 
-body, input, button {
+.webtitle {
+    font-size: 30px;
+}
+
+input#sign_in_name, input#sign_in_pass {
+    margin-top: 0.5vw;
+    box-sizing: inherit;
+}
+
+body, #txt, #sex, #date, #txt_add, #txt_acc, #submit {
     font-family: century gothic;
 }
 
-button {
+.sign_up_title {
+    text-shadow: 1px 1px #FF0000;
+}
+
+#submit {
     margin-top: 5%;
     border-radius: 10px;
     padding: 1% 5%;
     background-color: maroon;
     color: white;
+    font-size: 1vw;
+    width: inherit;
+    height: inherit;
 }
 
-button:hover {
+#submit:hover {
     background-color: crimson; color: black;
 }
 
-button:active {
+#submit:active {
     background-color: red; color: white;
 }
 
@@ -39,15 +55,18 @@ button:active {
     background-color: rgba(169, 169, 169, 0.5);
     max-width: 50%;
     text-align: center;
-    margin: auto;
+    top: 10vw;
+    left: 25%;
+    /* display: inline-block; */
     padding: 2% 4% 2% 4%;
+    position: absolute;
 }
 
-form {
+.formmm {
     background-color: white; padding: 3% 1% 3% 1%;
 }
 
-table {
+.form_table {
     margin: auto;
     width: 80%;
     height: wrap;
@@ -87,7 +106,7 @@ table {
     font-style: none;
 }
 
-input {
+#txt, #sex, #date, #txt_add, #txt_acc {
     border: none;
     border-radius: 10px;
     background-color: lightgrey;
@@ -95,14 +114,8 @@ input {
     font-size: 16;
 }
 
-input:focus {
+#txt:focus, #sex:focus, #date:focus, #txt_add:focus, #txt_acc:focus {
     background-color: rgba(220, 20, 60, 0.5); 
     font-weight: bold; 
     outline: none;
 }
-
-/*
-table, tr, td {
-    border: 1px solid black;
-} 
-*/

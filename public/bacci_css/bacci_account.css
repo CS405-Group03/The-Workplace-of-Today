@@ -17,11 +17,12 @@
 
 .user_img {
     right: 0;
-    margin: 1vw 3.3vw 0vw 0vw;
+    margin: .8vw 3.3vw 0vw 0vw;
     border-radius: 50%;
     width : 5vw;
     height : 5vw;
     position: fixed;
+    border: 3px solid white;
 }
 
 div.signup_content {
@@ -38,13 +39,51 @@ li.acc {
     list-style: none;
     background-color: maroon;
 	text-align: center;
-	font-size: 20px;
-    padding: 10%;
+	font-size: 15px;
+    padding: 5%;
+    width: 11.1vw;
+    height: 3vh;
+}
+
+li.breakline {
+    list-style: none;
+    background-color: maroon;
+	text-align: center;
+	font-size: 15px;
+    padding: 0% 10% 0% 10%;
+    width: 10vw;
+    height: .3vw;
+}
+
+li.sign_in, #sign_in_name, #sign_in_pass {
+    list-style: none;
+    background-color: maroon;
+	text-align: center;
+	font-size: 15px;
+    padding: 5% 10% 5% 10%;
+    margin-top: -0.5vw;
+    margin-bottom: -0.8vw;
     width: 10vw;
     height: 3vh;
 }
 
-a.sign {
+input#sign_in_name, input#sign_in_pass {
+    width: 9.85vw;
+    height: 1.55vw;
+    /* border: 0;
+    outline: 0; */
+    border: 1px solid black;
+}
+
+input#sign_in_name {
+    margin-bottom: 0.5vw;
+}
+
+input#sign_in_pass {
+    margin-bottom: -1vw;
+}
+
+a.sign, li.sign_in, #sign_in_name, #sign_in_pass {
     color: white;
     text-decoration: none;
 }
