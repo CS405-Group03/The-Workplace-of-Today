@@ -44,7 +44,7 @@ Route::get('/aboutus', [Bacci_MainController::class, 'aboutcontrol']);
 
 Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
-Route::resource('/register', [Bacci_UsersController::class, 'create']);
+// Route::resource('/register', [Bacci_UsersController::class, 'create']);
 
 // Route::resource('/register', 'Bacci_UsersController');
 
@@ -72,4 +72,4 @@ Route::get('/', funtion()[
 ]);
 */
 
-// Route::get('/posts/{slug}', [Bacci_MainController::class, 'posting'])->where('post', '[A-z_\-]+');
+// Route::get('/posts/{slug}', [Bacci_MainController::class, 'posting'])->where('post', '[A-z_\-]+');}', [Bacci_MainController::class, 'posting'])->where('post', '[A-z_\-]+');
