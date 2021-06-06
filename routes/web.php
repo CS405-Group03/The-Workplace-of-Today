@@ -45,10 +45,11 @@ Route::get('/aboutus', [Bacci_MainController::class, 'aboutcontrol']);
 
 Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
+
+
 Route::get('/register', [Bacci_UsersController::class, 'create']);
 
-// Route::resource('/register', 'Bacci_UsersController');
-
+Route::post('/register', [Bacci_UsersController::class, 'store']);
 
 
 

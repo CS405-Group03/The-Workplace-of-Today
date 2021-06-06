@@ -28,8 +28,10 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
         <div class = "form_container">
 
-            <form class = "formmm" method = "post" action = "{{url('Bacci_UsersController')}}"> 
+            <!-- <form class = "formmm" method = "post" action = "{{url('Bacci_UsersController')}}">  -->
                 <!-- to send the form to 'Bacci_UsersController' -->
+            <form class = "formmm" method = "POST" action = "/register"> 
+                @csrf
 
                 <h2 class = "sign_up_title"> Sign Up and Share Something </h2>
 
@@ -48,8 +50,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
                     <tr>
                         <td id = "lbl"><label> Sex : </label></td>
                         <td id = "inp">
-                            <input type = "radio" name = "form_male" id = "sex" value = "Male"><label> Male </label>
-                            <input type = "radio" name = "form_female" id = "sex" value = "Female"><label> Female </label>
+                            <input type = "radio" name = "form_gender" id = "sex" value = "Male"><label> Male </label>
+                            <input type = "radio" name = "form_gender" id = "sex" value = "Female"><label> Female </label>
                         </td>
                     </tr>
 
@@ -83,8 +85,9 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
                 </table>
 
-                <input type = "button" name = "form_submit_button" id = "submit" value = "SUBMIT" onclick = "javascript:alert('Are you sure?')"/>
+                <!-- <input type = "button" name = "form_submit_button" id = "submit" value = "SUBMIT" onclick = "javascript:alert('Are you sure?')"/> -->
 
+                <button type = "submit" name = "form_submit_button" id = "submit"> SUBMIT </button>
             </form>
 
         </div>
