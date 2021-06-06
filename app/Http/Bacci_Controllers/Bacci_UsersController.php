@@ -2,6 +2,7 @@
 
 namespace App\Http\Bacci_Controllers;
 
+use App\Models\Users;
 use Illuminate\Http\Request;
 
 class Bacci_UsersController extends Controller
@@ -25,7 +26,7 @@ class Bacci_UsersController extends Controller
      */
     public function create()
     {
-        return view('/bacci_register');
+        return view('register.bacci_register');
     }
 
 
@@ -38,7 +39,30 @@ class Bacci_UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // return request()->all();
+
+        $attributes = request()->validate([
+            'form_last_name' => 'filled',
+            'form_first_name' => 'required',
+
+            'form_gender' => 'required',
+            'form_birthdate' => 'required|date|after:start_date',
+//              $date = date('Y-m-d', strtotime($_POST['form_birthdate']));
+//              echo "Today is $date";
+
+            'form_address' => 'required',
+            'form_contact_number' => 'required',
+
+            'form_username' => 'required',
+            'form_password' => 'required',
+            'form_confirm_password' => 'required'
+        ]);
+        
+        // dd('Successfully Registered');
+
+        Users::create($attributes);
+
+        return redirect('/');
     }
 
 
