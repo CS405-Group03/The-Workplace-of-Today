@@ -26,9 +26,7 @@
 }
 
 div.signup_content {
-    /* clear: left; */
     position: fixed;
-	/* padding : 0% 0% 1% 1%; */
     padding-top: 1%;
     right: 0;
     margin-top: 5.6%;
@@ -70,8 +68,6 @@ li.sign_in, #sign_in_name, #sign_in_pass {
 input#sign_in_name, input#sign_in_pass {
     width: 9.85vw;
     height: 1.55vw;
-    /* border: 0;
-    outline: 0; */
     border: 1px solid black;
 }
 
@@ -108,7 +104,6 @@ a.sign:active, li.acc:active {
 	overflow: hidden;
 }
 
-
 .acc_dropdwn {
 	font-size: 30px;
 	border: none;
@@ -120,12 +115,10 @@ a.sign:active, li.acc:active {
 	margin: 0;
 }
 
-
 .acc_dropdwn:hover, .user_img:hover {
 	color : black;
 	transition: ease 0.5s;
 }
-
 
 .signup_content {
 	display: none;

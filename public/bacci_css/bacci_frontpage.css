@@ -15,14 +15,8 @@
                                 Assistant Designer
 */
 
-/* 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-*/
-
 div.frontpage_content {
-    margin : 10% 10% 0% 10%;
+    margin: 10% 10% 0% 10%;
     padding-bottom: 5vw;
     text-align: justify;
     font-size: 12;

@@ -30,16 +30,17 @@
             <div class = "signup_content">
                 
                 <li class = "sign_in"> Username : </li>
-                <input id="sign_in_name" placeholder="Enter Username"/>
+                <input type = "text" name = "sign_username" id = "sign_in_name" placeholder = "Enter Username"/>
                 
                 <li class = "sign_in"> Password : </li>
-                <input id="sign_in_pass" type="password" placeholder="Enter Password"/>
+                <input type = "text" name = "sign_password" id = "sign_in_pass" type = "password" placeholder = "Enter Password"/>
 
                 <li class = "breakline"> </li>
                 <li class = "breakline"> </li>
                 <li class = "breakline"> </li>
 
-                <a class = "sign" href = ""><li class = "acc"> Sign In </li></a>
+                <!-- <input type = "button" name = "signin_button" class = "sign" value = "Sign In"><li class = "acc"> </li></input> -->
+                <a name = "signin_button" class = "sign" href = ""><li class = "acc"> Sign In </li></a>
 
                 <li class = "breakline"> </li>
                 

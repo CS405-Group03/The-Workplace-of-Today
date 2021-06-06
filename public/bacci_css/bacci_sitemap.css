@@ -15,20 +15,14 @@
                                 Assistant Designer
 */
 
-/* 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-*/
-
 .sitemap_content {
     width: 50vw;
-    margin : 8% 15% 10% 15%;
-    padding : 5vw 10vw 5vw 10vw;
-    border : 1px Solid Black;
-    position : absolute;
-    background-color : rgba(255, 255, 255, 0.8);
-    color : black;
+    margin: 8% 15% 10% 15%;
+    padding: 5vw 10vw 5vw 10vw;
+    border: 1px Solid Black;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
 }
 
 #sitemaptitle {
@@ -45,6 +39,6 @@
 }
 
 .sitemap_a:hover {
-	color : maroon;
+	color: maroon;
     text-decoration: underline;
 }

@@ -15,14 +15,8 @@
                                 Assistant Designer
 */
 
-/* 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-*/
-
 body {
-    margin : 0;
+    margin: 0;
     font-family: century gothic;
 }
 
@@ -36,13 +30,14 @@ body {
 	text-decoration: none;
 }
 
+
+
 /* Dropdown Class inside the Navigation Bar... */
 
 .dropdown {
 	float: left;
 	overflow: hidden;
 }
-
 
 .dropdown .dropbtn{
 	font-size: 30px;
@@ -55,12 +50,10 @@ body {
 	margin: 0;
 }
 
-
 .dropdown:hover, .dropbtn:hover {
-	color : black;
+	color: black;
 	transition: ease 0.5s;
 }
-
 
 .dropdown-content {
 	display: none;
@@ -74,49 +67,53 @@ body {
 
 /* End Transitions... */
 
+
+
 div.header_content {
-	background-color : maroon;
-	color : white;
-	width : 100%;
-	padding : 2% 0% 2% 1%;
-	height : 4%;
-	font-size : 24;
-    position : fixed;
+	background-color: maroon;
+	color: white;
+	width: 100%;
+	padding: 2% 0% 2% 1%;
+	height: 4%;
+	font-size: 24;
+    position: fixed;
 	border-bottom: 5px solid black;
 }
 
 img.dropbtn, h1.webtitle  {
-	margin-left : 0.5%;
-	margin-top : -0.01em;
-	display : inline-block;
+	margin-left: 0.5%;
+	margin-top: -0.01em;
+	display: inline-block;
 }
 
-img.dropbtn{
+img.dropbtn {
     border: none;
     outline: none;
     color: white;
-	font-size : 3vw;
+	font-size: 3vw;
     margin-left: 2vw;
     background-color: inherit;
-	margin-top : -0.1em;
+	margin-top: -0.1em;
 	width: 3vw;
 	height: 3vw;
 	object-fit: contain;
 }
 
 a.menu {
-	text-decoration : none;
-	color : white;
-	font-size : x-large;
-	padding : 1% 2em 1% 2em;
-	width : 80%;
+	text-decoration: none;
+	color: white;
+	font-size: x-large;
+	padding: 1% 2em 1% 2em;
+	width: 80%;
 }
 
 li.link {
-	background-color : maroon;
-	list-style : none;
-	padding : 0.5em 0em 0.5em 0em;
+	background-color: maroon;
+	list-style: none;
+	padding: 0.5em 0em 0.5em 0em;
 }
+
+
 
 /* Website Title ---------- */
 
@@ -126,36 +123,6 @@ li.link {
 }
 
 .webtitle_a:hover {
-	color : darkgray;
+	color: darkgray;
 	transition: ease 1s;
 }
-
-/* LogIn Content ---------------------------------- */
-/* 
-div.login {
-    height: inherit;
-    width: 20vw;
-	height: 20vw;
-    display: block;
-    position: relative;
-    right: 0;
-}
-
-div.login-content {
-	background-color: pink;
-}
-
-li.log {
-    list-style: none;
-}
-
-a.logg{
-    color: black;
-}
-
-div.login {
-	float: right;
-	right: 0;
-}
-
-*/

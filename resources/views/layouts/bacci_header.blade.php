@@ -27,8 +27,8 @@
     </head>
 
     <body>
-        <div class="header_content">
-            <div class="navbar">
+        <div class = "header_content">
+            <div class = "navbar">
                
                 <div class = "dropdown">
                     <img class = "dropbtn" src = "/icons/ico_menu.png">
