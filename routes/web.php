@@ -17,6 +17,7 @@
 
 <?php
 
+use App\Models\Users;
 use Illuminate\Support\Facades\Route;
 use App\Http\Bacci_Controllers\Bacci_MainController;
 use App\Http\Bacci_Controllers\Bacci_UsersController;
@@ -44,7 +45,7 @@ Route::get('/aboutus', [Bacci_MainController::class, 'aboutcontrol']);
 
 Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
-// Route::resource('/register', [Bacci_UsersController::class, 'create']);
+Route::get('/register', [Bacci_UsersController::class, 'create']);
 
 // Route::resource('/register', 'Bacci_UsersController');
 
