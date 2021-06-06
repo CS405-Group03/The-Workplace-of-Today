@@ -30,8 +30,8 @@
                 <b> || </b>
                     Copyright &#169 2021 The Workplace of Today 
                 <b> || </b>
-                    <a class = "terms" href = "">Terms of Use</a> &nbsp|&nbsp <a class = "sitemap" href = "/sitemap"> Sitemap </a> &nbsp|&nbsp <a class = "privacy" href = ""> Privacy Policy </a>
-                <b> || </b> 
+                    <a class = "terms" href = ""> Terms of Use </a> &nbsp|&nbsp <a class = "sitemap" href = "/sitemap"> Sitemap </a> &nbsp|&nbsp <a class = "privacy" href = ""> Privacy Policy </a>
+                <b> || </b>
                     Email Us:
                     <img class = "followFB" src = "{{ asset('icons/ico_fb.png') }}"/>
                     <img class = "followINSTA" src = "{{ asset('icons/ico_insta.png') }}"/>

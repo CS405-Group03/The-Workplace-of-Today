@@ -30,6 +30,9 @@
         @yield('web_bg')
 
         <div class = "frontpage_content">
+
+
+
             <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
@@ -47,6 +50,8 @@
                     </td>
                 </tr>
             </table>
+
+
 
             <table class = "tbl_frontpage">
                 <tr>
@@ -66,6 +71,8 @@
                 </tr>
             </table>
 
+
+
             <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
@@ -84,6 +91,8 @@
                 </tr>
             </table>
 
+
+
             <table class = "tbl_frontpage">
                 <tr>
                     <td class = "imghere">
@@ -101,6 +110,8 @@
                     </td>
                 </tr>
             </table>
+
+            
         </div>
         
         @yield('header_body')

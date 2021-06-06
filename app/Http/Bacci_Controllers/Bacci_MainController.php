@@ -39,16 +39,6 @@ class Bacci_MainController
         return view('bacci_articles');
     }
 
-        // public function articlescontrol($slug)
-        // {
-        //     $path = resource_path("articlesPosts/{$slug}.html");
-
-        //     $varPost = file_get_contents($path);
-
-        //     return view('bacci_articles', [
-        //         'article_posts' => $varPost]);
-        // }
-
     public function newscontrol()
     {
         return view('bacci_news');
@@ -68,34 +58,6 @@ class Bacci_MainController
     {
         return view('bacci_sitemap');
     }
-
-
-    /*
-    public function all()
-    {
-        $accessFile = File::files(resource_path("samplePosts"));
-
-        return array_map(function ($file) {
-            return $file -> getContents();
-        }, $accessFile);
-    }
-
-    public function posting($slug)
-    {
-        $path = resource_path("samplePosts/{$slug}.html");
-
-        if (! file_exists ($path)) {
-            // throw new ModelNotFoundException();
-            return redirect('/');
-            // dd('file does not exist');
-        }
-
-        $varPost = file_get_contents($path);
-
-        return view('my-post', [
-            'my_post' => $varPost]);
-    }
-    */
 }
 
 ?>

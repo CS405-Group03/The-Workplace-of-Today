@@ -34,10 +34,12 @@
         <div class = "main_news_content">
 
             <i>
-                <h3>NIOSH questionnaire aimed at gauging, enhancing worker well-being</h3>
+                <h3> NIOSH questionnaire aimed at gauging, enhancing worker well-being </h3>
+
                 <p>
                     By News Update
-                    <br>April 21, 2021
+                    <br>
+                    April 21, 2021
                 </p>
             </i>
 
@@ -52,11 +54,12 @@
                 The NIOSH Worker Well-Being Questionnaire, or WellBQ, includes 68 questions shaped by the worker well-being framework developed by the agency, in conjunction with the nonprofit research institute RAND Corp. The free, anonymous questionnaire is estimated to take 15 minutes to complete and covers topics such as work evaluation and experience; workplace policies and culture; workplace physical environment and safety climate; health status; and home, community and society.
             </p>
 
-            <p class="a">The questions include:</p>
+            <p class = "a"> The questions include: </p>
+
             <ul>
-                <li class="list1">Because of a physical, mental or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?</li>
-                <li class="list2">Are you limited in the kind or amount of work you can do because of a physical, mental or emotional problem?</li>
-                <li class="list3">How often do you get the social and emotional support you need from friends, family or others outside of work?</li>
+                <li class = "list1"> Because of a physical, mental or emotional condition, do you have serious difficulty concentrating, remembering or making decisions? </li>
+                <li class = "list2"> Are you limited in the kind or amount of work you can do because of a physical, mental or emotional problem? </li>
+                <li class = "list3"> How often do you get the social and emotional support you need from friends, family or others outside of work? </li>
             </ul>
 
             <p>
@@ -64,11 +67,11 @@
             </p>
 
             <ul>
-                <li class="list4">At my organization, I am treated with respect.</li>
-                <li class="list5">My organization values my contributions.</li>
-                <li class="list6">My organization cares about my general satisfaction at work.</li>
-                <li class="list7">My organization is willing to extend resources to help me perform my job to the best of my ability.</li>
-                <li class="list8">I receive recognition for a job well done</li>
+                <li class = "list4"> At my organization, I am treated with respect. </li>
+                <li class = "list5"> My organization values my contributions. </li>
+                <li class = "list6"> My organization cares about my general satisfaction at work. </li>
+                <li class = "list7"> My organization is willing to extend resources to help me perform my job to the best of my ability. </li>
+                <li class = "list8"> I receive recognition for a job well done </li>
             </ul>
 
             <p>
@@ -80,10 +83,11 @@
 
 
             <i>
-                <h3>SHRM Survey: Some Workers Favor Required Vaccinations</h3>
+                <h3> SHRM Survey: Some Workers Favor Required Vaccinations </h3>
                 <p>
                     By Kathy Gurchiek
-                    <br>April 20, 2021
+                    <br>
+                    April 20, 2021
                 </p>
             </i>
 
@@ -114,7 +118,7 @@
                 Men, teleworkers and those with children under the age of 18 living at home are among those most likely to choose to be vaccinated, SHRM found.
             </p>
 
-            <img class="img1" src="img/news1-image.jpg">
+            <img class = "img1" src = "img/news1-image.jpg">
 
             <p>
                 As of late March, when the survey was conducted, nearly two-thirds of the workers SHRM surveyed had not been vaccinated, though 63 percent said they probably or definitely would get the shot when it became available to them. The U.S. Centers for Disease Control and Prevention (CDC) is advocating that employers appoint "vaccination ambassadors" to encourage acceptance of the COVID-19 vaccine. SHRM found, though, that friends and family—not managers or colleagues—have the most influence on those unsure about getting or unlikely to get vaccinated.
@@ -124,7 +128,7 @@
                 When workers do opt for vaccination, the three most popular venues they would choose to go to, from a list of eight choices, were a primary care physician's office, in-network providers/a health management organization, and a hospital.
             </p>
 
-            <h3>Employer Requirements</h3>
+            <h3> Employer Requirements </h3>
             <p>
                 Fifty-two percent of respondents said they would support their employer requiring all employees get vaccinated as a condition of employment—a sentiment that varies by generation, ethnic identification, industry, and whether one works remotely or onsite.
             </p>
@@ -161,7 +165,7 @@
                 Additionally, employers must provide reasonable accommodations to employees who decline to be vaccinated due to a disability or sincerely held religious belief, unless providing an accommodation would pose an undue hardship under Title VII of the Civil Rights Act of 1964. And employers may need to pay employees for time off to receive vaccines, particularly if they mandate inoculation. State and local sick-leave laws, as well as employer policies, may cover such time off. [SHRM members-only resource: How to Handle a Request for an Accommodation]
             </p>
 
-            <h3>Financial Impact</h3>
+            <h3> Financial Impact </h3>
             <p>
                 The pandemic has caused some small businesses to reduce their staffs or close their doors. Two-thirds of Americans know of at least one small business that closed permanently since the pandemic began, and about one-third are aware of at least one small business in their community that plans to do so. Twenty percent of workers have been laid off or furloughed because of the pandemic's effect on their employer.
             </p>

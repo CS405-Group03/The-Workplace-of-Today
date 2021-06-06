@@ -15,14 +15,8 @@
                                 Assistant Designer
 */
 
-/* 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-*/
-
 li.link:hover, td.readmorebtn:hover {
-	background-color : crimson;
+	background-color: crimson;
 	transition: ease 1s;
 }
 
@@ -31,8 +25,10 @@ a.menu:hover, li.link:hover, td.readmorebtn:hover, a.readmore:hover {
 }
 
 a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
-	color : white;
+	color: white;
 }
+
+
 
 /* Blog, News, and Article Page --------------- */
 
@@ -55,7 +51,7 @@ a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
     background-repeat: no-repeat;
 }
 
-.news_title, .articles_title{
+.news_title, .articles_title {
     margin: 10vw 10vw 10vw 3vw;
     padding: 2vw 5vw 2vw 5vw;
     float: left;
@@ -66,8 +62,6 @@ a.menu:active, li.link:active, td.readmorebtn:active, a.readmore:hover {
     margin: 15vw 10vw 10vw 3vw;
     float: left;
     width: 58vw;
-    /* bottom: -0.1vw; */
-    /* padding-bottom: 10vw; */
 }
 
 .blog_title {

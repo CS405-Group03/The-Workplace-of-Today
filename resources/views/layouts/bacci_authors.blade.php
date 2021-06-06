@@ -18,8 +18,6 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> News/Articles </title>
-
 		<link rel = "stylesheet" type = "text/css" href = "bacci_css/bacci_authors.css">
 	</head>
 

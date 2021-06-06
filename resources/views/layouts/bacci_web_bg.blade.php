@@ -24,11 +24,11 @@
 				height : 100vh;
 				-moz-animation-timing-function : ease;
 				-webkit-animation-timing-function : ease;
-				animation: myanime 10s infinite 0s;
+				animation : myanime 10s infinite 0s;
 				background-repeat : no-repeat;
 				filter : brightness(65%);
-				background-position: center;
-				backface-visibility: hidden;
+				background-position : center;
+				backface-visibility : hidden;
 			}
 
 			@keyframes myanime {

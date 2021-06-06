@@ -19,6 +19,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Bacci_Controllers\Bacci_MainController;
+use App\Http\Bacci_Controllers\Bacci_UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +35,6 @@ use App\Http\Bacci_Controllers\Bacci_MainController;
 Route::get('/', [Bacci_MainController::class, 'indexcontrol']);
 
 Route::get('/articles', [Bacci_MainController::class, 'articlescontrol']);
-// Route::get('/articles/{slug}', [Bacci_MainController::class, 'articlescontrol']);
 
 Route::get('/news', [Bacci_MainController::class, 'newscontrol']);
 
@@ -44,7 +44,13 @@ Route::get('/aboutus', [Bacci_MainController::class, 'aboutcontrol']);
 
 Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
-Route::get('/register', [Bacci_MainController::class, 'registercontrol']);
+Route::resource('/register', [Bacci_UsersController::class, 'create']);
+
+// Route::resource('/register', 'Bacci_UsersController');
+
+
+
+
 
 // Route::get('/register', function(){
 //     return view('/bacci_register');
@@ -53,10 +59,6 @@ Route::get('/register', [Bacci_MainController::class, 'registercontrol']);
 // Route::get('/signup', function(){
 //     return view ('/layouts/bacci_signup');   
 // });
-
-
-
-
 
 // Route::get('/', [Bacci_MainController::class, 'all']);
 
