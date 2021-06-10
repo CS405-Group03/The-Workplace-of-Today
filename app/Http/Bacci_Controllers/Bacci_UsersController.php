@@ -62,10 +62,8 @@ class Bacci_UsersController extends Controller
 
         Users::create($attributes);
 
-        return redirect('/');
+        return redirect('/')->with('success', 'Success! Thanks for Submitting the Registration Form.');
     }
-
-
 
     /**
      * Display the specified resource.
