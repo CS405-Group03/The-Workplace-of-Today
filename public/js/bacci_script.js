@@ -72,3 +72,22 @@ function prevart2(){
 	document.getElementById("articles2-id").style.display = "block";
 	document.getElementById("articles3-id").style.display = "none";
 }
+
+
+
+$(document).ready(function() {
+	$("form[name='formmm']").submit(function() {
+
+		// do the extra stuff here
+		$.ajax({
+			type: "POST",
+			url: "mail-script.php",
+			data: $(this).serialize(),
+			success: function() {
+				$('.alert').fadeIn(100).show();
+
+			}
+		})
+
+	})
+})

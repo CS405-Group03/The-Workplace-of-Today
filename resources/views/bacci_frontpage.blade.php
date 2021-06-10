@@ -114,6 +114,7 @@
             
         </div>
         
+        @include('/layouts/bacci_messages')
         @yield('header_body')
         @yield('footer_body')
     </body>
