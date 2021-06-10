@@ -42,22 +42,31 @@ class Bacci_UsersController extends Controller
         // return request()->all();
 
         $attributes = request()->validate([
-            'form_last_name' => 'filled',
+            'form_last_name' => 'required',
             'form_first_name' => 'required',
 
             'form_gender' => 'required',
             'form_birthdate' => 'required|date|after:start_date',
-//              $date = date('Y-m-d', strtotime($_POST['form_birthdate']));
-//              echo "Today is $date";
 
             'form_address' => 'required',
             'form_contact_number' => 'required',
 
             'form_username' => 'required',
             'form_password' => 'required',
-            'form_confirm_password' => 'required'
-        ]);
-        
+            'form_confirm_password' => 'required|same:form_password'
+        ],[ 
+            'form_last_name.required' => 'Enter Last Name',
+            'form_first_name.required' => 'Enter First Name',
+            'form_gender.required' => 'Please Pick a Gender',
+            'form_birthdate.required' => 'Enter Your Birthdate',
+            'form_address.required' => 'Enter Address',
+            'form_contact_number.required' => 'Enter Contact Number',
+            'form_username.required' => 'Enter Username',
+            'form_password.required' => 'Enter Password',
+            'form_confirm_password.required' => 'Re-Enter Password',
+            'form_confirm_password.same' => 'Password Mismatch!'
+            ]);
+
         // dd('Successfully Registered');
 
         Users::create($attributes);
