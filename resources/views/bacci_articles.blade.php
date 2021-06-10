@@ -31,7 +31,9 @@
     <body>
         @include('layouts/bacci_web_bg')
 
+        <a id = "articles01"> </a>
         <div class = "main_articles_content">
+        
             <i>
                 <h3> Early deaths rising in workers using methylene chloride paint strippers </h3>
                 <p>
@@ -89,6 +91,7 @@
             <p>
                 "The science is clear," Singla said. "It is past time to eliminate this deadly chemical and prevent any further tragic loss of life."
             </p>
+            <a id = "articles02"> </a>
 
 
             <br>

@@ -31,6 +31,7 @@
     <body>
         @include('layouts/bacci_web_bg')
 
+        <a id = "news01"> </a>
         <div class = "main_news_content">
 
             <i>
@@ -77,9 +78,14 @@
             <p>
                 “Worker well-being is a unifying concept that characterizes quality of life with respect to a person’s working conditions, circumstances outside of work, and physical and mental health status,” NIOSH Director John Howard said in a press release. “NIOSH is excited to offer this new tool that anyone can use to evaluate worker well-being in order to help identify opportunities to advance worker well-being through workplace policies, programs and practices.”
             </p>
+            <a id = "news02"> </a>
 
-            
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
 
             <i>

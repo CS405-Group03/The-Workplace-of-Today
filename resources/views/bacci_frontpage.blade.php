@@ -46,7 +46,7 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class = "readmore" href = "/articles"> Read More </a>
+                        <a class = "readmore" href = "/articles#articles01"> Read More </a>
                     </td>
                 </tr>
             </table>
@@ -66,7 +66,7 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class = "readmore" href = "/news"> Read More </a>
+                        <a class = "readmore" href = "/news#news01"> Read More </a>
                     </td>
                 </tr>
             </table>
@@ -86,7 +86,7 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class = "readmore" href = "/articles"> Read More </a>
+                        <a class = "readmore" href = "/articles#articles02"> Read More </a>
                     </td>
                 </tr>
             </table>
@@ -106,7 +106,7 @@
                     </td>
 
                     <td class = "readmorebtn">
-                        <a class = "readmore" href = "/news"> Read More </a>
+                        <a class = "readmore" href = "/news#news02"> Read More </a>
                     </td>
                 </tr>
             </table>
