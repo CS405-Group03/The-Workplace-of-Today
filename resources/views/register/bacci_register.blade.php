@@ -22,8 +22,6 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
         <meta name = "viewport" width = "device-width" initial-scale = "1">
         <link rel = "stylesheet" type = "text/css" href = "/bacci_css/bacci_register.css">
         <script src = "https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     </head>
 
     <body>
@@ -31,8 +29,6 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
         <div class = "form_container">
 
-            <!-- <form class = "formmm" method = "post" action = "{{url('Bacci_UsersController')}}">  -->
-                <!-- to send the form to 'Bacci_UsersController' -->
             <form class = "formmm" method = "POST" action = "/register"> 
                 @csrf
 
@@ -42,12 +38,12 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
                     <tr>
                         <td id = "lbl"><label> Last Name : </label></td>
-                        <td id = "inp"><input type = "text" name = "form_last_name" id = "txt" placeholder = "ex. Jeon" required/> </td>
+                        <td id = "inp"><input type = "text" name = "form_last_name" id = "txt" placeholder = "ex. Jeon" value = "{{ old('form_last_name') }}" minlength = "5" maxlength = "30" required/> </td>
                     </tr>
 
                     <tr>
                         <td id = "lbl"><label> First Name : </label></td>
-                        <td id = "inp"><input type = "text" name = "form_first_name" id = "txt" placeholder = "ex. Jungkook" required/> </td>
+                        <td id = "inp"><input type = "text" name = "form_first_name" id = "txt" placeholder = "ex. Jungkook" value = "{{ old('form_first_name') }}" minlength = "5" maxlength = "30" required/> </td>
                     </tr>
 
 
@@ -55,8 +51,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
                     <tr>
                         <td id = "lbl"><label> Sex : </label></td>
                         <td id = "inp">
-                            <input type = "radio" name = "form_gender" id = "sex" value = "Male" required><label> Male </label>
-                            <input type = "radio" name = "form_gender" id = "sex" value = "Female" required><label> Female </label>
+                            <input type = "radio" name = "form_gender" id = "sex" value = "Male" value = "{{ old('form_gender') }}" required><label> Male </label>
+                            <input type = "radio" name = "form_gender" id = "sex" value = "Female" value = "{{ old('form_gender') }}" required><label> Female </label>
                         </td>
                     </tr>
 
@@ -64,17 +60,20 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
                     <tr>
                         <td id = "lbl"><label> Birthdate : </label></td>
-                        <td id = "inp"><input type = "date" name = "form_birthdate" id = "date" required/> </td>
+                        <td id = "inp"><input type = "date" name = "form_birthdate" id = "date" value = "{{ old('form_birthdate') }}" required/> </td>
                     </tr>
 
                     <tr>
                         <td id = "lbl"><label> Address : </label></td>
-                        <td id = "inp"><input type = "text" name = "form_address" id = "txt_add" placeholder = "ex. Rosario, Pasig City" required/> </td>
+                        <td id = "inp"><input type = "text" name = "form_address" id = "txt_add" placeholder = "ex. Rosario, Pasig City" value = "{{ old('form_address') }}" minlength = "20" required/> </td>
                     </tr>
 
                     <tr>
                         <td id = "lbl"><label> Contact Number : </label></td>
-                        <td id = "inp"><input type = "text" name = "form_contact_number" id = "txt" placeholder = "+639" value = "+639" maxlength = "13" required/> </td>
+                        <td id = "inp"><input type = "text" name = "form_contact_number" id = "txt" placeholder = "+639" value = "{{ old('form_contact_number') }}" minlength = "13" maxlength = "13" required/>
+                            <br>
+                            <span style = "color : red"> {{ $errors->first('form_contact_number') }} </span>
+                             </td>
                     </tr>
 
                     <tr id = "account">
@@ -82,19 +81,20 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
                         <br>
                             
-                            <input type = "text" name = "form_username" id = "txt_acc" placeholder = "Username" required/>
-                            <input type = "text" name = "form_password" id = "txt_acc" placeholder = "Password" required/>
-                            <input type = "text" name = "form_confirm_password" id = "txt_acc" placeholder = "Confirm Password" required/>
+                            <input type = "text" name = "form_username" id = "txt_acc" placeholder = "Username" value = "{{ old('form_username') }}" minlength = "5" maxlength = "20" required/>
+                            <span style = "color : red"> {{ $errors->first('form_username') }} </span>
+                            <input type = "text" name = "form_password" id = "txt_acc" placeholder = "Password" value = "{{ old('form_password') }}" required/>
+                            <span style = "color : red"> {{ $errors->first('form_password') }} </span>
+                            <input type = "text" name = "form_confirm_password" id = "txt_acc" placeholder = "Confirm Password" value = "{{ old('form_confirm_password') }}" required/>
+                            <br>
+                            <span style = "color : red"> {{ $errors->first('form_confirm_password') }} </span>
                         </td>
                     </tr>
 
                 </table>
 
-                <!-- <input type = "button" name = "form_submit_button" id = "submit" value = "SUBMIT" onclick = "javascript:alert('Are you sure?')"/> -->
-
                 <div x-data = "{show: false}">
                     <button type = "submit" name = "form_submit_button" id = "submit" @click = "show = !show" href = "/"> SUBMIT </button>
-
 
                     <!-- <div x-show = "show">
                         <div class = "alert">
@@ -103,38 +103,8 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
                     </div> -->
                 </div>
 
-                <!-- <button type = "submit" name = "form_submit_button" id = "submit" onclick = "javascript:alert(' Success! Thanks for Submitting the Registration Form.')"> SUBMIT </button> -->
             </form>
-            <!-- <span class = "success"> Thank's for submitting the form </span> -->
-
         </div>
-
-
-        <!--         
-            <script src = "{{ asset('js/bacci_script.js') }}">
-                            
-                $(document).ready(function() {
-                    $("form[name='formmm']").submit(function() {
-
-                        // do the extra stuff here
-                        $.ajax({
-                            type: "POST",
-                            url: "{{ asset('js/bacci_script.js') }}",
-                            data: $(this).serialize(),
-                            success: function() {
-                                $('.alert').fadeIn(100).show();
-
-                            }
-                        })
-
-                    })
-                })
-
-            <div class = "alert">
-                <strong> Success! </strong> Thank's for Submitting the Registration Form.
-            </div>
-            </script> 
-        -->
             
         @include('/layouts/bacci_header')
         @include('/layouts/bacci_footer')
