@@ -135,3 +135,19 @@ body, #txt, #sex, #date, #txt_add, #txt_acc, #submit {
     left: 31%;
     position: absolute;
 }
+
+.alertt {
+    background-color: #d6ffe1;
+    color: #1c7a35;
+    font-size: 15px;
+    padding: 20px 50px 20px 25px;
+    border-radius: 5%;
+    max-width: 50%;
+    margin-top: 8vw;
+    right: 2%;
+    position: absolute;
+}
+
+.alertt > ul {
+    list-style-type: none;
+}

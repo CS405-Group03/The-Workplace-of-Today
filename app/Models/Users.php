@@ -19,10 +19,6 @@ class Users extends Model
      */
     protected $guarded = [];
 
-    // protected $fillable = [
-    //     'last_name'
-    // ];
-
     /**
      * The attributes that should be hidden for arrays.
      *

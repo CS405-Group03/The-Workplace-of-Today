@@ -4,6 +4,8 @@ namespace App\Http\Bacci_Controllers;
 
 use App\Models\Users;
 use Illuminate\Http\Request;
+use Validator;
+use Auth;
 
 class Bacci_UsersController extends Controller
 {
@@ -14,7 +16,7 @@ class Bacci_UsersController extends Controller
      */
     public function index()
     {
-        //
+        return view('/index');
     }
 
 
@@ -27,6 +29,58 @@ class Bacci_UsersController extends Controller
     public function create()
     {
         return view('register.bacci_register');
+    }
+
+
+
+    function checklogin(Request $request)
+    {
+        $this->validate($request, [
+            'sign_username' =>  'required',
+            'sign_password' =>  'required|alphaNum'
+        ], [
+            'sign_username.required' => 'Please Enter Username First',
+            'sign_password.required' => 'Please Enter Password',
+            'sign_password.alphaNum' => 'Password Only Contains Number and Letters'
+        ]);
+
+        $user_data = array(
+            'form_username' =>  $request->get('sign_username'),
+            'form_password' => $request->get('sign_password')
+        );
+
+        if(Auth::attempt($user_data))
+        {
+            return redirect('/')->with('success', 'Login Successfully!');
+        }
+        else
+        {
+            // may change to redirect('/') only...
+            return back()->with('error', 'Wrong Username and Password Details!');
+        }
+
+    }
+
+
+
+    function successlogin()
+    {
+        return view('index');
+    }
+
+
+
+    function logout()
+    {
+        Auth::logout();
+        return redirect('/');
+    }
+
+
+
+    public function getAuthPassword()
+    {
+        return $this->a_password;
     }
 
 
@@ -52,9 +106,9 @@ class Bacci_UsersController extends Controller
             'form_contact_number' => 'required',
 
             'form_username' => 'required',
-            'form_password' => 'required',
+            'form_password' => 'required|alphaNum',
             'form_confirm_password' => 'required|same:form_password'
-        ],[ 
+        ], [ 
             'form_last_name.required' => 'Enter Last Name',
             'form_first_name.required' => 'Enter First Name',
             'form_gender.required' => 'Please Pick a Gender',
@@ -63,6 +117,7 @@ class Bacci_UsersController extends Controller
             'form_contact_number.required' => 'Enter Contact Number',
             'form_username.required' => 'Enter Username',
             'form_password.required' => 'Enter Password',
+            'form_password.alphaNum' => 'Only Letter and Numbers',
             'form_confirm_password.required' => 'Re-Enter Password',
             'form_confirm_password.same' => 'Password Mismatch!'
             ]);
@@ -80,6 +135,7 @@ class Bacci_UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
     public function show($id)
     {
         //
