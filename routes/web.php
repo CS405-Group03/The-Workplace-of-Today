@@ -47,6 +47,16 @@ Route::get('/sitemap', [Bacci_MainController::class, 'sitemapcontrol']);
 
 
 
+Route::get('/', [Bacci_UsersController::class, 'index']);
+
+Route::post('/', [Bacci_UsersController::class, 'checklogin']);
+
+Route::get('/', [Bacci_UsersController::class, 'successlogin']);
+
+Route::post('/logout', [Bacci_UsersController::class, 'logout']);
+
+
+
 Route::get('/register', [Bacci_UsersController::class, 'create']);
 
 Route::post('/register', [Bacci_UsersController::class, 'store']);

@@ -79,23 +79,30 @@ input#sign_in_pass {
     margin-bottom: -1vw;
 }
 
-a.sign, li.sign_in, #sign_in_name, #sign_in_pass {
+a.sign, .signbtn, li.sign_in, #sign_in_name, #sign_in_pass {
     color: white;
     text-decoration: none;
 }
 
-a.sign:hover, li.acc:hover {
+a.sign:hover, .signbtn:hover,  li.acc:hover {
    color: black;
    background-color: rgb(160, 39, 39);
    transition: ease 0.5s;
 }
 
-a.sign:active, li.acc:active {
+a.sign:active, .signbtn:active,  li.acc:active {
     background-color: rgb(160, 39, 39);;
     color: white;
 }
 
-
+.signbtn {
+    border: none;
+    background: none;
+    font-size: inherit;
+    padding: 10px 52px 10px 52px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
 
 /* Dropdown for Account... */
 

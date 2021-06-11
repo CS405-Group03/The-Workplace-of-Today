@@ -26,26 +26,41 @@
     <body>
         <div class = "acc_dropdwn">
             <img class = "user_img" src = "img/ico_user.png">
-            
+
             <div class = "signup_content">
-                
-                <li class = "sign_in"> Username : </li>
-                <input type = "text" name = "sign_username" id = "sign_in_name" placeholder = "Enter Username"/>
-                
-                <li class = "sign_in"> Password : </li>
-                <input type = "text" name = "sign_password" id = "sign_in_pass" type = "password" placeholder = "Enter Password"/>
+                <form method = "POST" action = "/">
+                    {{ csrf_field() }}    
 
-                <li class = "breakline"> </li>
-                <li class = "breakline"> </li>
-                <li class = "breakline"> </li>
+                    @if(isset(Auth::user()->sign_username))
+                        <li class = "sign_in"> Welcome {{ Auth::user()->sign_username }} </li>
+                        
+                        <li class = "breakline"> </li>
+                        <li class = "breakline"> </li>
+                        <li class = "breakline"> </li>
 
-                <!-- <input type = "button" name = "signin_button" class = "sign" value = "Sign In"><li class = "acc"> </li></input> -->
-                <a name = "signin_button" class = "sign" href = ""><li class = "acc"> Sign In </li></a>
+                        <li class = "acc"> <input type = "submit" name = "signin_button" class = "signbtn" value = "Sign Out" href = "/logout"> </input> </li>
+                    @endif
+                    
+                        <li class = "sign_in"> Username : </li>
+                        <input type = "text" name = "sign_username" id = "sign_in_name" placeholder = "Enter Username"/>
+                        
+                        <li class = "sign_in"> Password : </li>
+                        <input type = "password" name = "sign_password" id = "sign_in_pass" placeholder = "Enter Password"/>
 
-                <li class = "breakline"> </li>
-                
-                <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
+                        <li class = "breakline"> </li>
+                        <li class = "breakline"> </li>
+                        <li class = "breakline"> </li>
 
+                        <li class = "acc"> <input type = "submit" name = "signin_button" class = "signbtn" value = "Sign In" href = "/"> </input> </li>
+
+                        <!-- <a name = "signin_button" class = "sign" href = ""><li class = "acc"> Sign In </li></a> -->
+                        
+
+                </form> 
+
+                    <li class = "breakline"> </li>
+                    
+                    <a class = "sign" href = "/register"><li class = "acc"> Sign Up </li></a>
             </div>
 
         </div>
