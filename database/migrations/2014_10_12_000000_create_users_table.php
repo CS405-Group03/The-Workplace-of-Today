@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('form_birthdate');
             $table->string('form_address');
             $table->string('form_contact_number');
-            $table->string('form_username')->unique();
+            $table->string('form_username');
             $table->string('form_password');
             $table->string('form_confirm_password');
             $table->rememberToken();
