@@ -43,7 +43,7 @@ Inodeo, Chara Mae       ->  Content Gatherer (News, Informations and Blogs)
 
                     <tr>
                         <td id = "lbl"><label> First Name : </label></td>
-                        <td id = "inp"><input type = "text" name = "form_first_name" id = "txt" placeholder = "ex. Jungkook" value = "{{ old('form_first_name') }}" minlength = "5" maxlength = "30" required/> </td>
+                        <td id = "inp"><input type = "text" name = "form_first_name" id = "txt" placeholder = "ex. Jungkook" value = "{{ old('form_first_name') }}"  maxlength = "30" required/> </td>
                     </tr>
 
 
